@@ -1,60 +1,119 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Markdown to HTML</title>
+    <title>RookieTeam 实验9</title>
     <style>
-        /* Add your CSS styles here */
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            background-color: #f4f4f4;
         }
-        h1, h2, h3, h4, h5, h6 {
+        h1 {
             color: #333;
         }
-        ul, ol {
-            padding-left: 20px;
+        h2 {
+            color: #555;
         }
-        code {
-            background-color: #f4f4f4;
-            border: 1px solid #ddd;
-            padding: 2px 4px;
-            border-radius: 4px;
+        ul {
+            list-style-type: disc;
+            margin-left: 20px;
+        }
+        .section {
+            background: #fff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .section p {
+            margin: 10px 0;
         }
     </style>
 </head>
 <body>
-    <h2>team_name: RookieTeam</h2>
-    <h2>Flow Model</h2>
-    <p>在线教育平台的流程模型可以展示学生如何注册、浏览课程、参加课程和获得证书的过程，以及教师如何上传课程、管理学生和获得收入的过程。</p>
-    <img src="./FlowModel.png" alt="流程模型图">
-
-    <h2>2. “如何做”（HMW）问题</h2>
-    <ul>
-        <li>HMW1：我们如何让新用户快速了解并注册我们的在线教育平台？</li>
-        <li>HMW2：我们如何确保课程内容的质量和更新？</li>
-        <li>HMW3：我们如何提高学生的参与度和完成课程的动力？</li>
-        <li>HMW4：我们如何帮助教师有效地管理他们的课程和学生？</li>
-        <li>HMW5：我们如何确保平台的安全性和数据隐私？</li>
-        <li>HMW6：我们如何为教师提供足够的激励，让他们持续提供优质内容？</li>
-    </ul>
-
-    <h2>3. 人物角色（Personas）</h2>
-    <h3>人物角色1：学生（李华）</h3>
-    <img src="./Personas-1.png" alt="学生人物角色图">
-    <h3>人物角色2：教师（王老师）</h3>
-    <img src="./Personas-2.png" alt="教师人物角色图">
-
-    <h2>4. 故事板（Storyboards）</h2>
-    <h3>故事板1：学生体验</h3>
-    <img src="./storyboard-1.png" alt="学生体验故事板图">
-    <h3>故事板2：教师体验</h3>
-    <img src="./storyboard-2.png" alt="教师体验故事板图">
-
-    <h2>5. 重访并修订问题陈述，添加解决方案提案</h2>
-    <h3>问题陈述：</h3>
-    <p>在线教育平台面临着如何吸引和保留学生，以及如何为教师提供有效工具和支持的挑战。</p>
-    <h3>解决方案提案：</h3>
-    <p>我们提议开发一个集成了社交功能、个性化学习路径和教师支持工具的在线教育平台。该平台将通过数据分析来优化课程推荐，提高学生参与度，并通过提供高质量的教学资源和工具来吸引和保留教师。</p>
+    <h1>RookieTeam 实验9 反馈</h1>
+    
+    <div class="section">
+        <h2>团队信息</h2>
+        <p>团队名称：RookieTeam</p>
+        <p>成员：</p>
+        <ul>
+            <li>卢子卿 202100130172</li>
+            <li>刘子轩 202100130215</li>
+            <li>李东辉 202118130261</li>
+            <li>熊宇轩 202118130263</li>
+        </ul>
+    </div>
+    
+    <div class="section">
+        <h2>无障碍设计</h2>
+        <h3>问题</h3>
+        <p>未考虑无障碍设计，限制特殊用户群体的使用。</p>
+        <h3>来源</h3>
+        <p>特殊用户群体的需求与法律法规要求</p>
+        <h3>解决方案</h3>
+        <p>在App原型中添加无障碍设计功能，如支持屏幕阅读器、调整文字大小与颜色对比度等。确保特殊用户群体能够顺利使用该App原型。同时，遵循相关法律法规要求，确保无障碍设计的合规性。</p>
+    </div>
+    
+    <div class="section">
+        <h2>多语言支持</h2>
+        <h3>问题</h3>
+        <p>未考虑多语言支持，限制用户范围。</p>
+        <h3>来源</h3>
+        <p>国际化需求与多语言用户</p>
+        <h3>解决方案</h3>
+        <p>在App原型中添加多语言支持功能，根据用户需求提供多种语言选择。这包括界面文本的翻译、日期格式、货币符号等本地化调整。同时，确保多语言之间的切换流畅且不影响用户体验。</p>
+    </div>
+    
+    <div class="section">
+        <h2>功能实现问题</h2>
+        <h3>问题1</h3>
+        <p>部分功能描述不够详细，用户可能无法理解其用途。</p>
+        <h3>来源</h3>
+        <p>用户需求分析及功能描述</p>
+        <h3>解决方案</h3>
+        <p>为每个功能添加简短、明了的描述，并在必要时提供示例图或操作指南。</p>
+        
+        <h3>问题2</h3>
+        <p>缺少对用户上传文件的格式、大小等限制说明。</p>
+        <h3>来源</h3>
+        <p>系统设计规范及用户隐私保护</p>
+        <h3>解决方案</h3>
+        <p>在上传功能处添加明确的文件格式、大小等限制说明，确保用户上传的文件符合要求且安全。</p>
+    </div>
+    
+    <div class="section">
+        <h2>信息呈现与可读性</h2>
+        <h3>问题1</h3>
+        <p>部分页面信息呈现过于密集，用户难以快速抓住重点。</p>
+        <h3>来源</h3>
+        <p>信息架构设计与用户体验研究</p>
+        <h3>解决方案</h3>
+        <p>优化信息呈现方式，如使用卡片式设计、列表排序或分页显示等，确保用户能够快速找到所需信息。同时，使用加粗、颜色区分等视觉手段强调关键信息。</p>
+        
+        <h3>问题2</h3>
+        <p>页面颜色设计过于单调</p>
+        <h3>来源</h3>
+        <p>信息架构设计与用户体验研究</p>
+        <h3>解决方案</h3>
+        <p>优化颜色的设计，可以采用蓝色、浅绿色等进行设计，而不是整体都是灰色，并对当前页面状态用一些颜色特征表示特定状态。</p>
+    </div>
+    
+    <div class="section">
+        <h2>用户反馈与迭代优化</h2>
+        <h3>问题</h3>
+        <p>未提供用户反馈渠道或机制。</p>
+        <h3>来源</h3>
+        <p>用户参与与持续改进</p>
+        <h3>解决方案</h3>
+        <p>在App原型中添加用户反馈渠道或机制，如设置意见箱、在线客服或社交媒体联系方式等。鼓励用户积极提供反馈意见，以便及时发现并解决问题。</p>
+    </div>
 </body>
 </html>
