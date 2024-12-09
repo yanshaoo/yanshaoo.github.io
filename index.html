@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RookieTeam 实验9</title>
+    <title>本科毕业设计管理系统项目提案</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -12,108 +12,123 @@
             padding: 20px;
             background-color: #f4f4f4;
         }
-        h1 {
+        h1, h2, h3 {
             color: #333;
         }
-        h2 {
-            color: #555;
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .team {
+            margin-bottom: 20px;
+        }
+        .team p {
+            margin: 0;
+            font-weight: bold;
+        }
+        .proposal {
+            margin-bottom: 40px;
+        }
+        .links {
+            margin-bottom: 20px;
+        }
+        .links a {
+            color: #007bff;
+            text-decoration: none;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+        .problem-solution {
+            margin-bottom: 20px;
+        }
+        .problem-solution h3 {
+            margin-top: 20px;
         }
         ul {
             list-style-type: disc;
             margin-left: 20px;
         }
-        .section {
-            background: #fff;
-            padding: 20px;
-            margin-bottom: 20px;
-            border-radius: 5px;
-            box-shadow: 0 0 10px rgba(0,0,0,0.1);
-        }
-        .section h2 {
-            margin-top: 0;
-        }
-        .section p {
-            margin: 10px 0;
-        }
     </style>
 </head>
 <body>
-    <h1>RookieTeam 实验9 反馈</h1>
-    
-    <div class="section">
-        <h2>团队信息</h2>
-        <p>团队名称：RookieTeam</p>
-        <p>成员：</p>
-        <ul>
-            <li>卢子卿 202100130172</li>
-            <li>刘子轩 202100130215</li>
-            <li>李东辉 202118130261</li>
-            <li>熊宇轩 202118130263</li>
-        </ul>
-    </div>
-    
-    <div class="section">
-        <h2>无障碍设计</h2>
-        <h3>问题</h3>
-        <p>未考虑无障碍设计，限制特殊用户群体的使用。</p>
-        <h3>来源</h3>
-        <p>特殊用户群体的需求与法律法规要求</p>
-        <h3>解决方案</h3>
-        <p>在App原型中添加无障碍设计功能，如支持屏幕阅读器、调整文字大小与颜色对比度等。确保特殊用户群体能够顺利使用该App原型。同时，遵循相关法律法规要求，确保无障碍设计的合规性。</p>
-    </div>
-    
-    <div class="section">
-        <h2>多语言支持</h2>
-        <h3>问题</h3>
-        <p>未考虑多语言支持，限制用户范围。</p>
-        <h3>来源</h3>
-        <p>国际化需求与多语言用户</p>
-        <h3>解决方案</h3>
-        <p>在App原型中添加多语言支持功能，根据用户需求提供多种语言选择。这包括界面文本的翻译、日期格式、货币符号等本地化调整。同时，确保多语言之间的切换流畅且不影响用户体验。</p>
-    </div>
-    
-    <div class="section">
-        <h2>功能实现问题</h2>
-        <h3>问题1</h3>
-        <p>部分功能描述不够详细，用户可能无法理解其用途。</p>
-        <h3>来源</h3>
-        <p>用户需求分析及功能描述</p>
-        <h3>解决方案</h3>
-        <p>为每个功能添加简短、明了的描述，并在必要时提供示例图或操作指南。</p>
-        
-        <h3>问题2</h3>
-        <p>缺少对用户上传文件的格式、大小等限制说明。</p>
-        <h3>来源</h3>
-        <p>系统设计规范及用户隐私保护</p>
-        <h3>解决方案</h3>
-        <p>在上传功能处添加明确的文件格式、大小等限制说明，确保用户上传的文件符合要求且安全。</p>
-    </div>
-    
-    <div class="section">
-        <h2>信息呈现与可读性</h2>
-        <h3>问题1</h3>
-        <p>部分页面信息呈现过于密集，用户难以快速抓住重点。</p>
-        <h3>来源</h3>
-        <p>信息架构设计与用户体验研究</p>
-        <h3>解决方案</h3>
-        <p>优化信息呈现方式，如使用卡片式设计、列表排序或分页显示等，确保用户能够快速找到所需信息。同时，使用加粗、颜色区分等视觉手段强调关键信息。</p>
-        
-        <h3>问题2</h3>
-        <p>页面颜色设计过于单调</p>
-        <h3>来源</h3>
-        <p>信息架构设计与用户体验研究</p>
-        <h3>解决方案</h3>
-        <p>优化颜色的设计，可以采用蓝色、浅绿色等进行设计，而不是整体都是灰色，并对当前页面状态用一些颜色特征表示特定状态。</p>
-    </div>
-    
-    <div class="section">
-        <h2>用户反馈与迭代优化</h2>
-        <h3>问题</h3>
-        <p>未提供用户反馈渠道或机制。</p>
-        <h3>来源</h3>
-        <p>用户参与与持续改进</p>
-        <h3>解决方案</h3>
-        <p>在App原型中添加用户反馈渠道或机制，如设置意见箱、在线客服或社交媒体联系方式等。鼓励用户积极提供反馈意见，以便及时发现并解决问题。</p>
+    <div class="container">
+        <div class="team">
+            <h1>团队：RookieTeam</h1>
+            <p>成员：</p>
+            <ul>
+                <li>卢子卿 202100130172</li>
+                <li>刘子轩 202100130215</li>
+                <li>李东辉 202118130261</li>
+                <li>熊宇轩 202118130263</li>
+            </ul>
+        </div>
+        <div class="proposal">
+            <h2>项目Proposal</h2>
+            <p>本项目旨在开发一款专为本科生毕业设计管理设计的APP，该APP将涵盖从选题、开题、中期检查到答辩的全过程管理。主要功能包括选题管理、优秀范文、进度跟踪、文档上传与审核等。通过此APP，学生可以方便地提交毕业设计相关材料，实时查看进度与反馈；教师则可以高效地管理学生信息，跟踪学生进度，进行在线评审与指导。此APP将大大提高毕业设计管理的效率与质量，为本科生毕业设计提供更加便捷、高效的管理方式。</p>
+        </div>
+        <div class="links">
+            <h2>链接</h2>
+            <p><a href="https://yanshaoo.github.io/">https://yanshaoo.github.io/</a></p>
+        </div>
+        <div class="overall-statement">
+            <h2>整体陈述</h2>
+            <p>本次线框图设计旨在为用户提供一个直观、易用的本科毕业设计管理系统。通过该线框图，用户可以轻松进行项目申报、进度跟踪、资料上传及答辩安排等操作。然而，经过仔细审查及同行反馈，我们发现该线框图存在一些问题与改进空间。</p>
+        </div>
+        <div class="problem-solution">
+            <h2>问题分类及解决方案</h2>
+            <div>
+                <h3>1、无障碍设计</h3>
+                <p><strong>问题：</strong>未考虑无障碍设计，限制特殊用户群体的使用。</p>
+                <p><strong>来源：</strong>特殊用户群体的需求与法律法规要求</p>
+                <p><strong>解决方案：</strong>在App原型中添加无障碍设计功能，如支持屏幕阅读器、调整文字大小与颜色对比度等。确保特殊用户群体能够顺利使用该App原型。同时，遵循相关法律法规要求，确保无障碍设计的合规性。</p>
+            </div>
+            <div>
+                <h3>2、多语言支持</h3>
+                <p><strong>问题：</strong>未考虑多语言支持，限制用户范围。</p>
+                <p><strong>来源：</strong>国际化需求与多语言用户</p>
+                <p><strong>解决方案：</strong>在App原型中添加多语言支持功能，根据用户需求提供多种语言选择。这包括界面文本的翻译、日期格式、货币符号等本地化调整。同时，确保多语言之间的切换流畅且不影响用户体验。</p>
+            </div>
+            <div>
+                <h3>3、功能实现问题</h3>
+                <ul>
+                    <li><strong>问题：</strong>部分功能描述不够详细，用户可能无法理解其用途。</li>
+                    <p><strong>来源：</strong>用户需求分析及功能描述</p>
+                    <p><strong>解决方案：</strong>为每个功能添加简短、明了的描述，并在必要时提供示例图或操作指南。</p>
+                </ul>
+                <ul>
+                    <li><strong>问题：</strong>缺少对用户上传文件的格式、大小等限制说明。</li>
+                    <p><strong>来源：</strong>系统设计规范及用户隐私保护</p>
+                    <p><strong>解决方案：</strong>在上传功能处添加明确的文件格式、大小等限制说明，确保用户上传的文件符合要求且安全。</p>
+                </ul>
+            </div>
+            <div>
+                <h3>4、信息呈现与可读性</h3>
+                <ul>
+                    <li><strong>问题：</strong>部分页面信息呈现过于密集，用户难以快速抓住重点。</li>
+                    <p><strong>来源：</strong>信息架构设计与用户体验研究</p>
+                    <p><strong>解决方案：</strong>优化信息呈现方式，如使用卡片式设计、列表排序或分页显示等，确保用户能够快速找到所需信息。同时，使用加粗、颜色区分等视觉手段强调关键信息。</p>
+                </ul>
+                <ul>
+                    <li><strong>问题：</strong>页面颜色设计过于单调</li>
+                    <p><strong>来源：</strong>信息架构设计与用户体验研究</p>
+                    <p><strong>解决方案：</strong>优化颜色的设计，可以采用蓝色、浅绿色等进行设计，而不是整体都是灰色，并对当前页面状态用一些颜色特征表示特定状态。</p>
+                </ul>
+            </div>
+            <div>
+                <h3>5、用户反馈与迭代优化</h3>
+                <p><strong>问题：</strong>未提供用户反馈渠道或机制。</p>
+                <p><strong>来源：</strong>用户参与与持续改进</p>
+                <p><strong>解决方案：</strong>在App原型中添加用户反馈渠道或机制，如设置意见箱、在线客服或社交媒体联系方式等。鼓励用户积极提供反馈意见，以便及时发现并解决问题。</p>
+            </div>
+        </div>
+        <div class="expected-improvement">
+            <h2>预期改进效果</h2>
+            <p>通过上述问题的识别与解决，我们预期该本科毕业设计管理系统App原型的WireFrame将更加完善、直观且易用。用户将能够更快速地找到所需功能，并顺利完成开题、进度跟踪等操作。同时，该线框图也将更符合用户习惯及系统设计规范，为后续的视觉设计与功能开发奠定坚实基础。</p>
+        </div>
     </div>
 </body>
 </html>
