@@ -1,134 +1,1289 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>本科毕业设计管理系统项目提案</title>
+    <title>Rookie-Team</title>
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 20px;
-            background-color: #f4f4f4;
         }
-        h1, h2, h3 {
+
+        .container {
+            width: 80%;
+            height: 100%;
+            margin-left: 40%;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+    
+        h2 {
             color: #333;
         }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-            background: #fff;
+    
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+    
+        th,
+        td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+    
+        th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+    
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            text-align: center;
             padding: 20px;
+            background-color: #333;
+            color: white;
+        }
+
+        .content {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        .team {
+
+        .section {
             margin-bottom: 20px;
         }
-        .team p {
-            margin: 0;
+
+        .question {
             font-weight: bold;
         }
-        .proposal {
-            margin-bottom: 40px;
-        }
-        .links {
-            margin-bottom: 20px;
-        }
-        .links a {
-            color: #007bff;
-            text-decoration: none;
-        }
-        .links a:hover {
-            text-decoration: underline;
-        }
-        .problem-solution {
-            margin-bottom: 20px;
-        }
-        .problem-solution h3 {
-            margin-top: 20px;
-        }
-        ul {
-            list-style-type: disc;
+
+        .answer {
             margin-left: 20px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 20px;
         }
     </style>
 </head>
+
 <body>
-    <div class="container">
-        <div class="team">
-            <h1>团队：RookieTeam</h1>
-            <p>成员：</p>
-            <ul>
-                <li>卢子卿 202100130172</li>
-                <li>刘子轩 202100130215</li>
-                <li>李东辉 202118130261</li>
-                <li>熊宇轩 202118130263</li>
-            </ul>
-        </div>
-        <div class="proposal">
-            <h2>项目Proposal</h2>
-            <p>本项目旨在开发一款专为本科生毕业设计管理设计的APP，该APP将涵盖从选题、开题、中期检查到答辩的全过程管理。主要功能包括选题管理、优秀范文、进度跟踪、文档上传与审核等。通过此APP，学生可以方便地提交毕业设计相关材料，实时查看进度与反馈；教师则可以高效地管理学生信息，跟踪学生进度，进行在线评审与指导。此APP将大大提高毕业设计管理的效率与质量，为本科生毕业设计提供更加便捷、高效的管理方式。</p>
-        </div>
-        <div class="links">
-            <h2>链接</h2>
-            <p><a href="https://yanshaoo.github.io/">https://yanshaoo.github.io/</a></p>
-        </div>
-        <div class="overall-statement">
-            <h2>整体陈述</h2>
-            <p>本次线框图设计旨在为用户提供一个直观、易用的本科毕业设计管理系统。通过该线框图，用户可以轻松进行项目申报、进度跟踪、资料上传及答辩安排等操作。然而，经过仔细审查及同行反馈，我们发现该线框图存在一些问题与改进空间。</p>
-        </div>
-        <div class="problem-solution">
-            <h2>问题分类及解决方案</h2>
-            <div>
-                <h3>1、无障碍设计</h3>
-                <p><strong>问题：</strong>未考虑无障碍设计，限制特殊用户群体的使用。</p>
-                <p><strong>来源：</strong>特殊用户群体的需求与法律法规要求</p>
-                <p><strong>解决方案：</strong>在App原型中添加无障碍设计功能，如支持屏幕阅读器、调整文字大小与颜色对比度等。确保特殊用户群体能够顺利使用该App原型。同时，遵循相关法律法规要求，确保无障碍设计的合规性。</p>
+    <div>
+        <h1>RookieTeam</h1>
+        <h2>团队成员</h2>
+        <ul>
+            <li>卢子卿</li>
+            <li>刘子轩</li>
+            <li>李东辉</li>
+            <li>熊宇轩</li>
+        </ul>
+        <h2>导航</h2>
+        <ul>
+            <li><a href="#lab4">实验4</a></li>
+            <li><a href="#lab5">实验5</a></li>
+            <li><a href="#lab6、7">实验6、7</a></li>
+            <li><a href="#lab9">实验9</a></li>
+        </ul>
+
+    </div >
+    <div class="lab4" id="lab4">
+        <h1 align="center">实验4</h1>
+        <h1>项目描述</h1>
+        <h2>Team Name: Rookie Team</h2>
+        <h3>-Intro-</h3>
+        <p>你好！感谢你参加今天的采访。我们会聊聊你在阅读方面的经验和需求，以帮助我们设计一款更符合大学生需求的阅读管理应用。整个访谈大约会持续 30 分钟，你的所有回答会严格保密。</p>
+        <ol>
+            <li>你最近读的书或文章是什么？对这本书或文章有什么感受？</li>
+            <li>你一般喜欢什么类型的内容？</li>
+            <li>有哪本书对你的学习或生活产生了深远的影响？可以跟我们分享一下吗？</li>
+        </ol>
+        <h3>-Main Body-</h3>
+        <h4>主题 1：阅读习惯与偏好</h4>
+        <ol>
+            <li>您通常会选择在一天中的哪个时间段阅读？</li>
+            <li>您是否有一个固定的阅读计划或者是目标，比如每月读几本书？</li>
+            <li>在阅读过程中，哪些因素会让你更专注？</li>
+            <li>您是如何发现新的书籍或者是文章的？</li>
+            <li>你更倾向于使用电子书还是纸质书？为什么？</li>
+        </ol>
+        <h4>主题 2：软件使用</h4>
+        <ol>
+            <li>您使用过阅读相关的应用程序吗？</li>
+            <li>在使用阅读应用程序时，您觉得哪些功能是最有用的？</li>
+            <li>您有没有遇到过任何让阅读变得困难的技术问题？</li>
+            <li>您希望在一个理想的阅读 APP 中看到哪些功能？</li>
+            <li>您觉得一个好的阅读 APP 应该怎样平衡个性化推荐与用户隐私保护？</li>
+        </ol>
+        <h4>主题 3：应用功能改进建议</h4>
+        <ol>
+            <li>你觉得目前使用的阅读类应用有哪些不足之处？</li>
+            <li>你最希望新应用在什么方面有所创新？</li>
+            <li>在选择阅读应用时，你会更关注哪些特点（如界面设计、易用性、功能丰富度）？</li>
+            <li>如果一款应用能够帮助你培养阅读习惯，你认为它需要具备什么功能？</li>
+            <li>你会向朋友推荐阅读应用吗？为什么？</li>
+        </ol>
+        <h3>-Closing-</h3>
+        <ol>
+            <li>如果这款阅读应用在未来推出，你会考虑使用它吗？为什么？</li>
+            <li>你觉得这款应用最能吸引大学生用户的功能会是什么？</li>
+            <li>你有没有其他想补充的意见或建议？</li>
+        </ol>
+        <p>感谢你提供的宝贵反馈！你的意见将帮助我们打造一款更符合大学生需求的阅读管理工具。如果有后续问题，我们会再联系你。再次感谢！</p>
+        <h3>调查问卷</h3>
+        <form>
+            <label for="age">1.年龄：</label><input type="text" id="age"><br>
+            <label for="gender">2.性别：</label><input type="text" id="gender"><br>
+            <label for="grade">3.年级：</label><input type="text" id="grade"><br>
+            <label for="major">4.专业：</label><input type="text" id="major"><br>
+            <label>5.平均每周阅读时长：</label><br>
+            <input type="radio" name="readingTime" value="少于 1 小时">少于 1 小时<br>
+            <input type="radio" name="readingTime" value="1-3 小时">1 - 3 小时<br>
+            <input type="radio" name="readingTime" value="4-7 小时">4 - 7 小时<br>
+            <input type="radio" name="readingTime" value="8 小时以上">8 小时以上<br>
+            <label>6.您通常喜欢阅读哪些类型的书籍？（可多选）</label><br>
+            <input type="checkbox" name="bookType" value="小说">小说<br>
+            <input type="checkbox" name="bookType" value="教科书">教科书<br>
+            <input type="checkbox" name="bookType" value="科普书籍">科普书籍<br>
+            <input type="checkbox" name="bookType" value="报纸/杂志">报纸/杂志<br>
+            <input type="checkbox" name="bookType" value="网络文章">网络文章<br>
+            <input type="text" name="bookTypeOther" placeholder="其他："><br>
+            <label>7.您是否经常使用阅读 APP？</label><br>
+            <input type="radio" name="useApp" value="是">是<br>
+            <input type="radio" name="useApp" value="否">否<br>
+            <label>8.如果您使用阅读 APP，您通常使用它来做什么？（可多选）</label><br>
+            <input type="checkbox" name="appUsage" value="阅读小说">阅读小说<br>
+            <input type="checkbox" name="appUsage" value="查找学术资料">查找学术资料<br>
+            <input type="checkbox" name="appUsage" value="阅读新闻">阅读新闻<br>
+            <input type="checkbox" name="appUsage" value="学习语言">学习语言<br>
+            <input type="checkbox" name="appUsage" value="休闲娱乐">休闲娱乐<br>
+            <input type="text" name="appUsageOther" placeholder="其他，请注明："><br>
+            <label>9.您认为阅读 APP 应该具备哪些基本功能？（可多选）</label><br>
+            <input type="checkbox" name="appFeatures" value="书签功能">书签功能<br>
+            <input type="checkbox" name="appFeatures" value="笔记功能">笔记功能<br>
+            <input type="checkbox" name="appFeatures" value="高亮文本">高亮文本<br>
+            <input type="checkbox" name="appFeatures" value="字体调节">字体调节<br>
+            <input type="checkbox" name="appFeatures" value="夜间模式">夜间模式<br>
+            <input type="text" name="appFeaturesOther" placeholder="其他，请注明："><br>
+            <label>10.您是否会为获取高质量的阅读材料支付费用？</label><br>
+            <input type="radio" name="payForQuality" value="是">是<br>
+            <input type="radio" name="payForQuality" value="否">否<br>
+            <label>11.您是否愿意为阅读 APP 中的额外功能付费？（可多选）</label><br>
+            <input type="radio" name="payForExtraFeatures" value="是">是<br>
+            <input type="radio" name="payForExtraFeatures" value="否">否<br>
+            <label>12.您是否希望阅读 APP 能够提供个性化推荐服务？</label><br>
+            <input type="radio" name="wantPersonalized" value="是">是<br>
+            <input type="radio" name="wantPersonalized" value="否">否<br>
+            <label>13.如果阅读 APP 提供了个性化推荐，您希望推荐依据哪些方面？（可多选）</label><br>
+            <input type="checkbox" name="recommendationBasis" value="过去的阅读历史">过去的阅读历史<br>
+            <input type="checkbox" name="recommendationBasis" value="用户评分">用户评分<br>
+            <input type="checkbox" name="recommendationBasis" value="专家推荐">专家推荐<br>
+            <input type="checkbox" name="recommendationBasis" value="流行趋势">流行趋势<br>
+            <input type="text" name="recommendationBasisOther" placeholder="其他："><br>
+            <label>14.您觉得阅读应用中的提醒功能（如阅读提醒）是否有帮助？</label><br>
+            <input type="radio" name="reminderHelpful" value="很有帮助">很有帮助<br>
+            <input type="radio" name="reminderHelpful" value="有些帮助">有些帮助<br>
+            <input type="radio" name="reminderHelpful" value="无所谓">无所谓<br>
+            <input type="radio" name="reminderHelpful" value="没有帮助">没有帮助<br>
+            <label>15.您是否认为阅读 APP 中的社交功能（如评论区、讨论组等）对您的阅读体验有帮助？（可多选）</label><br>
+            <input type="radio" name="socialHelpful" value="是">是<br>
+            <input type="radio" name="socialHelpful" value="否">否<br>
+            <label>16.您是否希望通过阅读 APP 加入或创建阅读小组？</label><br>
+            <input type="radio" name="joinGroup" value="是">是<br>
+            <input type="radio" name="joinGroup" value="否">否<br>
+            <label>17.您对阅读 APP 的界面设计有何偏好？（可多选）</label><br>
+            <input type="checkbox" name="interfacePreference" value="简洁明快">简洁明快<br>
+            <input type="checkbox" name="interfacePreference" value="功能丰富">功能丰富<br>
+            <input type="checkbox" name="interfacePreference" value="易于导航">易于导航<br>
+            <input type="checkbox" name="interfacePreference" value="个性化定制">个性化定制<br>
+            <input type="text" name="interfacePreferenceOther" placeholder="其他："><br>
+            <label>18.您是否希望阅读 APP 提供离线阅读功能？</label><br>
+            <input type="radio" name="offlineReading" value="是">是<br>
+            <input type="radio" name="offlineReading" value="否">否<br>
+            <label>19.您对现在的阅读 APP 有什么不满意的地方？</label><br>
+            <textarea name="appDissatisfaction"></textarea><br>
+            <label>20.如果让您设计一款理想的阅读 APP，您最希望它具备哪些特点或功能？</label><br>
+            <textarea name="idealAppFeatures"></textarea><br>
+            <input type="submit" value="提交">
+        </form>
+        <h3>贡献者：</h3>
+        <p>采访：卢子卿</p>
+        <p>问卷：熊宇轩</p>
+        <p>修改采访：刘子轩</p>
+        <p>修改问卷：李东辉</p>
+        
+        
+        
+        
+        
+        
+        <h2>调查数据概览</h2>
+        <table>
+            <tr>
+                <th>年龄</th>
+                <th>性别</th>
+                <th>年级</th>
+                <th>专业</th>
+                <th>问题5</th>
+                <th>问题6</th>
+                <th>问题7</th>
+                <th>问题8</th>
+                <th>问题9</th>
+                <th>问题10</th>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>男</td>
+                <td>大一</td>
+                <td>计科</td>
+                <td>少于1小时</td>
+                <td>小说</td>
+                <td>是</td>
+                <td>阅读小说</td>
+                <td>夜间模式</td>
+                <td>否</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>男</td>
+                <td>大二</td>
+                <td>计科</td>
+                <td>1-3小时</td>
+                <td>小说</td>
+                <td>是</td>
+                <td>阅读小说</td>
+                <td>夜间模式</td>
+                <td>否</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>女</td>
+                <td>大一</td>
+                <td>计科</td>
+                <td>4-7小时</td>
+                <td>教科书</td>
+                <td>否</td>
+                <td>阅读小说</td>
+                <td>夜间模式</td>
+                <td>否</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>女</td>
+                <td>大二</td>
+                <td>计科</td>
+                <td>1-3小时</td>
+                <td>报纸/杂志</td>
+                <td>是</td>
+                <td>阅读小说</td>
+                <td>夜间模式</td>
+                <td>否</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>女</td>
+                <td>大三</td>
+                <td>生科</td>
+                <td>8小时以上</td>
+                <td>网络文章</td>
+                <td>否</td>
+                <td>休闲娱乐</td>
+                <td>高亮文本</td>
+                <td>是</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>男</td>
+                <td>大三</td>
+                <td>法学</td>
+                <td>8小时以上教科书</td>
+                <td></td>
+                <td>否</td>
+                <td>阅读小说</td>
+                <td>夜间模式</td>
+                <td>否</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>女</td>
+                <td>大二</td>
+                <td>法学</td>
+                <td>8小时以上</td>
+                <td>网络文章</td>
+                <td>否</td>
+                <td>休闲娱乐</td>
+                <td>夜间模式</td>
+                <td>是</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>男</td>
+                <td>大三</td>
+                <td>法学</td>
+                <td>8小时以上教科书</td>
+                <td></td>
+                <td>是</td>
+                <td>阅读小说</td>
+                <td>字体调节</td>
+                <td>否</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>男</td>
+                <td>大四</td>
+                <td>政管</td>
+                <td>4-7小时</td>
+                <td>科普书籍</td>
+                <td>是</td>
+                <td>阅读新闻</td>
+                <td>笔记功能</td>
+                <td>是</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>女</td>
+                <td>大二</td>
+                <td>政管</td>
+                <td>4-7小时</td>
+                <td>科普书籍</td>
+                <td>否</td>
+                <td>阅读新闻</td>
+                <td>高亮文本</td>
+                <td>否</td>
+            </tr>
+            <tr>
+                <td>18</td>
+                <td>男</td>
+                <td>大一</td>
+                <td>网安</td>
+                <td>4-7小时</td>
+                <td>教科书</td>
+                <td>是</td>
+                <td>阅读新闻</td>
+                <td>笔记功能</td>
+                <td>是</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>女</td>
+                <td>大二</td>
+                <td>法学</td>
+                <td>8小时以上</td>
+                <td>小说</td>
+                <td>是</td>
+                <td>学习语言</td>
+                <td>书签功能</td>
+                <td>否</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>女</td>
+                <td>大四</td>
+                <td>计科</td>
+                <td>8小时以上</td>
+                <td>教科书</td>
+                <td>否</td>
+                <td>休闲娱乐</td>
+                <td>字体调节</td>
+                <td>是</td>
+            </tr>
+            <tr>
+                <td>19</td>
+                <td>男</td>
+                <td>大二</td>
+                <td>网安</td>
+                <td>1-3小时</td>
+                <td>网络文章</td>
+                <td>否</td>
+                <td>学习语言</td>
+                <td>笔记功能</td>
+                <td>否</td>
+            </tr>
+            <tr>
+                <td>20</td>
+                <td>女</td>
+                <td>大三</td>
+                <td>政管</td>
+                <td>4-7小时</td>
+                <td>科普书籍</td>
+                <td>是</td>
+                <td>阅读小说</td>
+                <td>字体调节</td>
+                <td>是</td>
+            </tr>
+        </table>
+        
+        <table>
+            <tr>
+                <th>问题11</th>
+                <th>问题12</th>
+                <th>问题13</th>
+                <th>问题14</th>
+                <th>问题15</th>
+                <th>问题16</th>
+                <th>问题17</th>
+                <th>问题18</th>
+                <th>问题19</th>
+                <th>问题20</th>
+            </tr>
+            <!-- 这里插入从文档[^2^]中提取的数据行 -->
+            <tr>
+                <td>否</td>
+                <td>是</td>
+                <td>流行趋势</td>
+                <td>有些帮助</td>
+                <td>是</td>
+                <td>是</td>
+                <td>简洁明快</td>
+                <td>是</td>
+                <td>无</td>
+                <td>免费阅读</td>
+            </tr>
+            <tr>
+                <td>否</td>
+                <td>是</td>
+                <td>专家推荐</td>
+                <td>很有帮助</td>
+                <td>否</td>
+                <td>是</td>
+                <td>功能丰富</td>
+                <td>是</td>
+                <td>付费阅读</td>
+                <td>提升质量</td>
+            </tr>
+            <tr>
+                <td>否</td>
+                <td>是</td>
+                <td>用户评分</td>
+                <td>无所谓</td>
+                <td>是</td>
+                <td>是</td>
+                <td>简洁明快</td>
+                <td>是</td>
+                <td>无</td>
+                <td>无</td>
+            </tr>
+            <tr>
+                <td>否</td>
+                <td>是</td>
+                <td>流行趋势</td>
+                <td>有些帮助</td>
+                <td>是</td>
+                <td>是</td>
+                <td>个性化定制</td>
+                <td>是</td>
+                <td>无</td>
+                <td>免费阅读</td>
+            </tr>
+            <tr>
+                <td>否</td>
+                <td>是</td>
+                <td>专家推荐</td>
+                <td>无所谓</td>
+                <td>否</td>
+                <td>是</td>
+                <td>功能丰富</td>
+                <td>是</td>
+                <td>无</td>
+                <td>无</td>
+            </tr>
+            <tr>
+                <td>否</td>
+                <td>是</td>
+                <td>阅读历史</td>
+                <td>无所谓</td>
+                <td>是</td>
+                <td>是</td>
+                <td>简洁明快</td>
+                <td>是</td>
+                <td>不够智能</td>
+                <td>增进互动</td>
+            </tr>
+            <tr>
+                <td>是</td>
+                <td>是</td>
+                <td>流行趋势</td>
+                <td>有些帮助</td>
+                <td>是</td>
+                <td>否</td>
+                <td>个性化定制</td>
+                <td>是</td>
+                <td>无</td>
+                <td>个性化</td>
+            </tr>
+            <tr>
+                <td>否</td>
+                <td>是</td>
+                <td>个性背景</td>
+                <td>有些帮助</td>
+                <td>是</td>
+                <td>是</td>
+                <td>简洁明快</td>
+                <td>是</td>
+                <td>无</td>
+                <td>免费阅读</td>
+            </tr>
+            <tr>
+                <td>是</td>
+                <td>是</td>
+                <td>专家推荐</td>
+                <td>很有帮助</td>
+                <td>是</td>
+                <td>是</td>
+                <td>易于导航</td>
+                <td>是</td>
+                <td>无</td>
+                <td>无</td>
+            </tr>
+            <tr>
+                <td>否</td>
+                <td>是</td>
+                <td>阅读历史</td>
+                <td>有些帮助</td>
+                <td>是</td>
+                <td>是</td>
+                <td>简洁明快</td>
+                <td>是</td>
+                <td>体验不佳</td>
+                <td>可以加好友</td>
+            </tr>
+            <tr>
+                <td>是</td>
+                <td>是</td>
+                <td>流行趋势</td>
+                <td>没有帮助</td>
+                <td>是</td>
+                <td>是</td>
+                <td>个性化定制</td>
+                <td>是</td>
+                <td>无</td>
+                <td>更加个性化</td>
+            </tr>
+            <tr>
+                <td>否</td>
+                <td>是</td>
+                <td>背景音乐</td>
+                <td>无所谓</td>
+                <td>是</td>
+                <td>否</td>
+                <td>多样化</td>
+                <td>是</td>
+                <td>无</td>
+                <td>无</td>
+            </tr>
+            <tr>
+                <td>否</td>
+                <td>是</td>
+                <td>阅读历史</td>
+                <td>有些帮助</td>
+                <td>否</td>
+                <td>是</td>
+                <td>功能丰富</td>
+                <td>是</td>
+                <td>界面繁琐</td>
+                <td>可以建群</td>
+            </tr>
+            <tr>
+                <td>否</td>
+                <td>是</td>
+                <td>专家推荐</td>
+                <td>很有帮助</td>
+                <td>是</td>
+                <td>是</td>
+                <td>简洁明快</td>
+                <td>是</td>
+                <td>太过单一</td>
+                <td>免费</td>
+            </tr>
+            <tr>
+                <td>否</td>
+                <td>是</td>
+                <td>流行趋势</td>
+                <td>有些帮助</td>
+                <td>是</td>
+                <td>是</td>
+                <td>功能丰富</td>
+                <td>是</td>
+                <td>无</td>
+                <td>无</td>
+            </tr>
+        </table>
+        
+        <header>
+            <h1>访谈记录</h1>
+        </header>
+        <div class="content">
+            <!-- Student A -->
+            <div class="section">
+                <p class="question"><strong>访谈对象A：</strong></p>
+                <p><strong>Q:</strong> 你最近读的书或文章是什么？对这本书或文章有什么感受？</p>
+                <p class="answer">A: 我最近读了一篇关于人工智能发展的文章，感觉科技的发展真是日新月异。</p>
+                <p><strong>Q:</strong> 你一般喜欢什么类型的内容？</p>
+                <p class="answer">A: 我一般喜欢科幻小说和科技类的文章，对未来充满好奇。</p>
+                <p><strong>Q:</strong>有哪本书对你的学习或生活产生了深远的影响？可以跟我们分享一下吗？</p>
+                <p class="answer">A: 《黑客与画家》对我影响很大，让我对编程有了新的认识。</p>
+                <p><strong>Q:</strong>您通常会选择在一天中的哪个时间段阅读？</p>
+                <p class="answer">A: 我一般在晚上睡觉前读书，有助于放松。</p>
+                <p><strong>Q:</strong>在阅读过程中，哪些因素会让你更专注？</p>
+                <p class="answer">A: 安静的环境和无干扰的阅读体验非常重要。</p>
+                <p><strong>Q:</strong>您是如何发现新的书籍或者是文章的？</p>
+                <p class="answer">A: 通常是通过社交媒体上的推荐，或者朋友的介绍。</p>
+                <p><strong>Q:</strong>你更倾向于使用电子书还是纸质书？为什么？</p>
+                <p class="answer">A: 我更倾向于使用电子书，因为它方便携带，随时随地都可以阅读。</p>
+                <p><strong>Q:</strong>您使用过阅读相关的应用程序吗？</p>
+                <p class="answer">A: 是的，我经常使用阅读应用程序来查找学术资料。</p>
+                <p><strong>Q:</strong>在使用阅读应用程序时，您觉得哪些功能是最有用的？</p>
+                <p class="answer">A: 高亮文本和笔记功能对我很有用。</p>
+                <p><strong>Q:</strong>您有没有遇到过任何让阅读变得困难的技术问题？</p>
+                <p class="answer">A: 有时候字体大小调整不方便，会影响阅读体验。</p>
+                <p><strong>Q:</strong>您希望在一个理想的阅读APP中看到哪些功能？</p>
+                <p class="answer">A: 我希望有离线阅读和夜间模式。</p>
+                <p><strong>Q:</strong>您觉得一个好的阅读APP应该怎样平衡个性化推荐与用户隐私保护？</p>
+                <p class="answer">A: 应该基于我的阅读历史来推荐，但不能侵犯隐私。</p>
+                <p><strong>Q:</strong>你觉得目前使用的阅读类应用有哪些不足之处？</p>
+                <p class="answer">A: 推荐算法有时候不太准。</p>
+                <p><strong>Q:</strong>你最希望新应用在什么方面有所创新？</p>
+                <p class="answer">A: 我希望能更好地帮助我如何帮助用户建立更好的阅读习惯。</p>
+                <p><strong>Q:</strong>在选择阅读应用时，你会更关注哪些特点？</p>
+                <p class="answer">A: 界面设计是否简洁明快，以及是否易于导航。</p>
+                <p><strong>Q:</strong>如果一款应用能够帮助你培养阅读习惯，你认为它需要具备什么功能？</p>
+                <p class="answer">A: 我认为需要有一个阅读提醒功能。</p>
+                <p><strong>Q:</strong>你会向朋友推荐阅读应用吗？为什么？</p>
+                <p class="answer">A: 会，如果应用好的话我会推荐给朋友。</p>
+                <p><strong>Q:</strong>如果这款阅读应用在未来推出，你会考虑使用它吗？为什么？</p>
+                <p class="answer">A: 会考虑，因为功能齐全且能帮助我养成阅读习惯。</p>
+                <p><strong>Q:</strong>你觉得这款应用最能吸引大学生用户的功能会是什么？</p>
+                <p class="answer">A: 社交功能，比如可以和朋友一起创建阅读小组。</p>
+                <p><strong>Q:</strong>你有没有其他想补充的意见或建议？</p>
+                <p class="answer">A: 希望应用能支持更多的语言学习功能。</p>
             </div>
-            <div>
-                <h3>2、多语言支持</h3>
-                <p><strong>问题：</strong>未考虑多语言支持，限制用户范围。</p>
-                <p><strong>来源：</strong>国际化需求与多语言用户</p>
-                <p><strong>解决方案：</strong>在App原型中添加多语言支持功能，根据用户需求提供多种语言选择。这包括界面文本的翻译、日期格式、货币符号等本地化调整。同时，确保多语言之间的切换流畅且不影响用户体验。</p>
+            <!-- Student B -->
+            <div class="section">
+                <p class="question"><strong>访谈对象B：</strong></p>
+                <p><strong>Q:</strong> 你最近读的书或文章是什么？对这本书或文章有什么感受？</p>
+                <p class="answer">A: 我最近读了《人类简史》，它让我重新思考了人类社会的演变过程，非常启发心智。</p>
+                <p><strong>Q:</strong> 你一般喜欢什么类型的内容？</p>
+                <p class="answer">A: 我一般喜欢历史和哲学类的书籍，也偶尔读一些科幻小说来放松心情。</p>
+                <p><strong>Q:</strong>有哪本书对你的学习或生活产生了深远的影响？可以跟我们分享一下吗？</p>
+                <p class="answer">A: 《穷查理宝典》对我影响颇深，它教会了我如何运用多学科的知识来分析问题。</p>
+                <p><strong>Q:</strong>您通常会选择在一天中的哪个时间段阅读？</p>
+                <p class="answer">A: 我习惯在早上起床后和晚上临睡前阅读，这两个时间段比较安静，适合阅读。</p>
+                <p><strong>Q:</strong>在阅读过程中，哪些因素会让你更专注？</p>
+                <p class="answer">A: 干净整洁的阅读环境很重要，还有内容本身要足够吸引人。</p>
+                <p><strong>Q:</strong>您是如何发现新的书籍或者是文章的？</p>
+                <p class="answer">A: 通常通过社交媒体、博客或者推荐系统来发现新书籍。</p>
+                <p><strong>Q:</strong>你更倾向于使用电子书还是纸质书？为什么？</p>
+                <p class="answer">A: 我更喜欢纸质书，因为它们有一种独特的气息，而且翻页的感觉很享受。</p>
+                <p><strong>Q:</strong>您使用过阅读相关的应用程序吗？</p>
+                <p class="answer">A: 是的，我经常使用阅读应用程序来查找学术资料和电子书。</p>
+                <p><strong>Q:</strong>在使用阅读应用程序时，您觉得哪些功能是最有用的？</p>
+                <p class="answer">A: 我觉得书签和笔记功能特别有用，还有就是字体调节和夜间模式。</p>
+                <p><strong>Q:</strong>您有没有遇到过任何让阅读变得困难的技术问题？</p>
+                <p class="answer">A: 有时候某些应用更新后会变得卡顿，影响体验。</p>
+                <p><strong>Q:</strong>您希望在一个理想的阅读APP中看到哪些功能？</p>
+                <p class="answer">A: 我希望有一个方便的书签管理和同步功能，这样我可以随时随地访问我标记的重点内容。</p>
+                <p><strong>Q:</strong>您觉得一个好的阅读APP应该怎样平衡个性化推荐与用户隐私保护？</p>
+                <p class="answer">A: 我认为应该根据用户的阅读行为来推荐内容，并且提供可选择的隐私设置。</p>
+                <p><strong>Q:</strong>你觉得目前使用的阅读类应用有哪些不足之处？</p>
+                <p class="answer">A: 有时候字体调节功能不太好用，特别是在一些特定应用中。</p>
+                <p><strong>Q:</strong>你最希望新应用在什么方面有所创新？</p>
+                <p class="answer">A: 我希望能在数据同步和跨平台兼容性方面做得更好。</p>
+                <p><strong>Q:</strong>在选择阅读应用时，你会更关注哪些特点？</p>
+                <p class="answer">A: 我会关注界面设计是否简洁易用，以及是否支持多设备同步。</p>
+                <p><strong>Q:</strong>如果一款应用能够帮助你培养阅读习惯，你认为它需要具备什么功能？</p>
+                <p class="answer">A: 我认为需要有一个定期提醒的功能，帮助我养成每天阅读的习惯。</p>
+                <p><strong>Q:</strong>你会向朋友推荐阅读应用吗？为什么？</p>
+                <p class="answer">A: 会，尤其是那些有研究需求的同学，我觉得这些应用很有帮助。</p>
+                <p><strong>Q:</strong>如果这款阅读应用在未来推出，你会考虑使用它吗？为什么？</p>
+                <p class="answer">A: 如果它能符合我的需求，我会考虑使用。</p>
+                <p><strong>Q:</strong>你觉得这款应用最能吸引大学生用户的功能会是什么？</p>
+                <p class="answer">A: 我觉得社交功能会是最吸引大学生用户的，比如能够和朋友一起讨论书中的内容。</p>
+                <p><strong>Q:</strong>你有没有其他想补充的意见或建议？</p>
+                <p class="answer">A: 希望应用能提供更多的自定义选项，让用户根据自己的喜好调整界面和功能。</p>
             </div>
-            <div>
-                <h3>3、功能实现问题</h3>
-                <ul>
-                    <li><strong>问题：</strong>部分功能描述不够详细，用户可能无法理解其用途。</li>
-                    <p><strong>来源：</strong>用户需求分析及功能描述</p>
-                    <p><strong>解决方案：</strong>为每个功能添加简短、明了的描述，并在必要时提供示例图或操作指南。</p>
-                </ul>
-                <ul>
-                    <li><strong>问题：</strong>缺少对用户上传文件的格式、大小等限制说明。</li>
-                    <p><strong>来源：</strong>系统设计规范及用户隐私保护</p>
-                    <p><strong>解决方案：</strong>在上传功能处添加明确的文件格式、大小等限制说明，确保用户上传的文件符合要求且安全。</p>
-                </ul>
+            <!-- Student C -->
+            <div class="section">
+                <p class="question"><strong>访谈对象C：</strong></p>
+                <p><strong>Q:</strong> 你最近读的书或文章是什么？对这本书或文章有什么感受？</p>
+                <p class="answer">A: 我最近读了《活着》，这本书让我思考生命的意义，心情久久不能平静。</p>
+                <p><strong>Q:</strong> 你一般喜欢什么类型的内容？</p>
+                <p class="answer">A: 我一般喜欢文学作品，特别是那些能够引起情感共鸣的作品。</p>
+                <p><strong>Q:</strong>有哪本书对你的学习或生活产生了深远的影响？可以跟我们分享一下吗？</p>
+                <p class="answer">A: 《时间简史》改变了我对宇宙的看法，霍金的智慧让我受益匪浅。</p>
+                <p><strong>Q:</strong>您通常会选择在一天中的哪个时间段阅读？</p>
+                <p class="answer">A: 我喜欢在晚上阅读，因为这个时候比较安静，可以集中注意力。</p>
+                <p><strong>Q:</strong>在阅读过程中，哪些因素会让你更专注？</p>
+                <p class="answer">A: 一个安静的环境以及舒适的坐姿对我来说很重要。</p>
+                <p><strong>Q:</strong>您是如何发现新的书籍或者是文章的？</p>
+                <p class="answer">A: 我通常从朋友那里得到推荐，或者在社交媒体上看到别人分享的好书。</p>
+                <p><strong>Q:</strong>你更倾向于使用电子书还是纸质书？为什么？</p>
+                <p class="answer">A: 我更喜欢纸质书，因为它们便于携带，而且在旅行时非常方便。</p>
+                <p><strong>Q:</strong>您使用过阅读相关的应用程序吗？</p>
+                <p class="answer">A: 是的，我经常使用阅读应用程序来阅读电子书和查找学术资料。</p>
+                <p><strong>Q:</strong>在使用阅读应用程序时，您觉得哪些功能是最有用的？</p>
+                <p class="answer">A: 我觉得高亮文本和做笔记的功能非常有用，另外还有字体调节和夜间模式也很重要。</p>
+                <p><strong>Q:</strong>您有没有遇到过任何让阅读变得困难的技术问题？</p>
+                <p class="answer">A: 有时候应用在更新后会出现卡顿的问题，影响用户体验。</p>
+                <p><strong>Q:</strong>您希望在一个理想的阅读APP中看到哪些功能？</p>
+                <p class="answer">A: 我希望有一个同步阅读进度的功能，这样我可以在不同设备之间无缝切换。</p>
+                <p><strong>Q:</strong>您觉得一个好的阅读APP应该怎样平衡个性化推荐与用户隐私保护？</p>
+                <p class="answer">A: 我觉得应该根据用户的阅读历史来推荐内容，同时保障用户隐私不被滥用。</p>
+                <p><strong>Q:</strong>你觉得目前使用的阅读类应用有哪些不足之处？</p>
+                <p class="answer">A: 我觉得推荐算法有时不够准确，推荐的书籍并不完全符合我的兴趣。</p>
+                <p><strong>Q:</strong>你最希望新应用在什么方面有所创新？</p>
+                <p class="answer">A: 我希望能在新应用中看到更多社交功能的创新，比如允许用户共享笔记和读书心得。</p>
+                <p><strong>Q:</strong>在选择阅读应用时，你会更关注哪些特点？</p>
+                <p class="answer">A: 我会更关注界面设计的简洁性和易用性，以及是否支持多设备同步。</p>
+                <p><strong>Q:</strong>如果一款应用能够帮助你培养阅读习惯，你认为它需要具备什么功能？</p>
+                <p class="answer">A: 我认为需要有一个阅读提醒功能，帮助我定期回顾和继续阅读。</p>
+                <p><strong>Q:</strong>你会向朋友推荐阅读应用吗？为什么？</p>
+                <p class="answer">A: 会，如果应用好用的话我会推荐给朋友。</p>
+                <p><strong>Q:</strong>如果这款阅读应用在未来推出，你会考虑使用它吗？为什么？</p>
+                <p class="answer">A: 如果它能符合我的需求并且使用方便，我会考虑使用。</p>
+                <p><strong>Q:</strong>你觉得这款应用最能吸引大学生用户的功能会是什么？</p>
+                <p class="answer">A: 我觉得能够帮助用户管理文献和做研究的功能是最受大学生欢迎的。</p>
+                <p><strong>Q:</strong>你有没有其他想补充的意见或建议？</p>
+                <p class="answer">A: 希望应用能支持更多的语言学习功能，帮助我们在阅读的同时提高语言能力。</p>
             </div>
-            <div>
-                <h3>4、信息呈现与可读性</h3>
-                <ul>
-                    <li><strong>问题：</strong>部分页面信息呈现过于密集，用户难以快速抓住重点。</li>
-                    <p><strong>来源：</strong>信息架构设计与用户体验研究</p>
-                    <p><strong>解决方案：</strong>优化信息呈现方式，如使用卡片式设计、列表排序或分页显示等，确保用户能够快速找到所需信息。同时，使用加粗、颜色区分等视觉手段强调关键信息。</p>
-                </ul>
-                <ul>
-                    <li><strong>问题：</strong>页面颜色设计过于单调</li>
-                    <p><strong>来源：</strong>信息架构设计与用户体验研究</p>
-                    <p><strong>解决方案：</strong>优化颜色的设计，可以采用蓝色、浅绿色等进行设计，而不是整体都是灰色，并对当前页面状态用一些颜色特征表示特定状态。</p>
-                </ul>
+            <!-- Student D -->
+            <div class="section">
+                <p class="question"><strong>访谈对象D：</strong></p>
+                <p><strong>Q:</strong> 你最近读的书或文章是什么？对这本书或文章有什么感受？</p>
+                <p class="answer">A: 我最近读了《人类简史》，这本书让我对人类的历史有了全新的视角，讲述了很多我之前不知道的历史细节。</p>
+                <p><strong>Q:</strong> 你一般喜欢什么类型的内容？</p>
+                <p class="answer">A: 我一般喜欢历史类和社会科学类的书籍，对探讨社会行为和人类思想的书籍特别感兴趣。</p>
+                <p><strong>Q:</strong>有哪本书对你的学习或生活产生了深远的影响？可以跟我们分享一下吗？</p>
+                <p class="answer">A: <em>&Ugrave;乌合之众&Ugrave;</em>让我对群体心理学有了深刻的理解，影响了我对社会科学的看法。</p>
+                <p><strong>Q: </strong>您通常会选择在一天中的哪个时间段阅读？</p>
+                <p class="answer">A: 我每周给自己设定固定的阅读目标，比如每周读完一本书，保持一定的阅读节奏。</p>
+                <p><strong>Q: </strong>在阅读过程中，哪些因素会让你更专注？</p>
+                <p class="answer">A: 良好的阅读环境很重要，此外，内容如果能够引起我的兴趣也会让我更加专注。</p>
+                <p><strong>Q: </strong>您是如何发现新的书籍或者是文章的？</p>
+                <p class="answer">A: 我通常通过大学图书馆的推荐系统或者学术论坛来发现新的书籍和文章。</p>
+                <p><strong>Q: </strong>你更倾向于使用电子书还是纸质书？为什么？</p>
+                <p class="answer">A: 我更倾向于使用电子书，因为它便于携带，而且可以在多个设备上同步阅读。</p>
+                <p><strong>Q: </strong>您使用过阅读相关的应用程序吗？</p>
+                <p class="answer">A: 是的，我经常使用阅读应用程序来查找学术资料和电子书。</p>
+                <p><strong>Q: </strong>在使用阅读应用程序时，您觉得哪些功能是最有用的？</p>
+                <p class="answer">A: 书签和笔记功能对我来说很有用，另外还有字体调节和夜间模式也很重要。</p>
+                <p><strong>Q: </strong>您有没有遇到过任何让阅读变得困难的技术问题？</p>
+                <p class="answer">A: 有时候字体大小调节功能不太稳定，在一些设备上表现不一。</p>
+                <p><strong>Q: </strong>您希望在一个理想的阅读APP中看到哪些功能？</p>
+                <p class="answer">A: 我希望能有一个同步阅读进度的功能，这样我可以在不同设备之间无缝切换。</p>
+                <p><strong>Q: </strong>您觉得一个好的阅读APP应该怎样平衡个性化推荐与用户隐私保护？</p>
+                <p class="answer">A: 我觉得应该提供可选择的隐私设置，让用户自己决定是否愿意分享阅读数据。</p>
+                <p><strong>Q: </strong>你觉得目前使用的阅读类应用有哪些不足之处？</p>
+                <p class="answer">A: 我觉得目前的推荐算法还不够智能，推荐的书籍有时并不符合我的兴趣。</p>
+                <p><strong>Q: </strong>你最希望新应用在什么方面有所创新？</p>
+                A: 我希望能有更好的数据同步和跨平台兼容性方面的创新。
+                </p>
+                <p><strong>Q: </strong>在选择阅读应用时，你会更关注哪些特点？</p>
+                <p class="answer">A: 我会更关注界面设计是否简洁明了，以及是否支持多设备同步。</p>
+                <p><strong>Q: </strong>如果一款应用能够帮助你培养阅读习惯，你认为它需要具备什么功能？</p>
+                <p class="answer">A: 我认为需要有一个定期提醒的功能，帮助我保持阅读习惯。</p>
+        
+                <p><strong>Q: </strong>你会向朋友推荐阅读应用吗？为什么？</p>
+                <p class="answer">A: 会的，如果应用很好用的话我会推荐给朋友。</p>
+                <p><strong>Q: </strong>如果这款阅读应用在未来推出，你会考虑使用它吗？为什么？</p>
+                <p class="answer">A: 如果它能符合我的需求并且使用方便，我会考虑使用。</p>
+                <p><strong>Q: </strong>你觉得这款应用最能吸引大学生用户的功能会是什么？</p>
+                <p class="answer">A: 我认为社交功能和学习工具的结合是最受大学生欢迎的。</p>
+                <p><strong>Q: </strong>你有没有其他想补充的意见或建议？</p>
+                <p class="answer">A: 希望应用能提供更多的个性化选项，让用户根据自己的需求调整界面和功能。</p>
             </div>
-            <div>
-                <h3>5、用户反馈与迭代优化</h3>
-                <p><strong>问题：</strong>未提供用户反馈渠道或机制。</p>
-                <p><strong>来源：</strong>用户参与与持续改进</p>
-                <p><strong>解决方案：</strong>在App原型中添加用户反馈渠道或机制，如设置意见箱、在线客服或社交媒体联系方式等。鼓励用户积极提供反馈意见，以便及时发现并解决问题。</p>
-            </div>
-        </div>
-        <div class="expected-improvement">
-            <h2>预期改进效果</h2>
-            <p>通过上述问题的识别与解决，我们预期该本科毕业设计管理系统App原型的WireFrame将更加完善、直观且易用。用户将能够更快速地找到所需功能，并顺利完成开题、进度跟踪等操作。同时，该线框图也将更符合用户习惯及系统设计规范，为后续的视觉设计与功能开发奠定坚实基础。</p>
         </div>
     </div>
+    <div class="lab5" id="lab5">
+        <div class="container">
+            <h1>实验5</h1>
+            <h1>问卷调查结果可视化</h1>
+
+            <!-- 每周阅读时长分布 -->
+            <div>
+                <h2 class="chart-title">每周阅读时长分布</h2>
+                <canvas id="readingTimeChart"></canvas>
+            </div>
+
+            <!-- 阅读类型 -->
+            <div>
+                <h2 class="chart-title">阅读类型</h2>
+                <canvas id="readingTypeChart"></canvas>
+            </div>
+
+            <!-- 阅读APP使用情况 -->
+            <div>
+                <h2 class="chart-title">阅读APP使用情况</h2>
+                <canvas id="appUsageChart"></canvas>
+            </div>
+
+            <!-- 阅读APP基本功能需求 -->
+            <div>
+                <h2 class="chart-title">阅读APP基本功能需求</h2>
+                <canvas id="appFeaturesChart"></canvas>
+            </div>
+
+            <!-- 个性化推荐依据 -->
+            <div>
+                <h2 class="chart-title">个性化推荐依据</h2>
+                <canvas id="personalizedRecommendationsChart"></canvas>
+            </div>
+
+            <!-- 提醒功能帮助程度 -->
+            <div>
+                <h2 class="chart-title">提醒功能帮助程度</h2>
+                <canvas id="reminderHelpfulnessChart"></canvas>
+            </div>
+
+            <!-- 社交功能帮助程度 -->
+            <div>
+                <h2 class="chart-title">社交功能帮助程度</h2>
+                <canvas id="socialHelpfulnessChart"></canvas>
+            </div>
+
+            <!-- 界面设计偏好 -->
+            <div>
+                <h2 class="chart-title">界面设计偏好</h2>
+                <canvas id="designPreferencesChart"></canvas>
+            </div>
+
+        </div>
+
+    </div>
+    <div class="lab6、7" id="lab6、7">
+            <h1 align="center">实验6、7</h1>
+            <h1>team_name: RookieTeam</h1>
+            <h2>Flow Model</h2>
+            <p>在线教育平台的流程模型可以展示学生如何注册、浏览课程、参加课程和获得证书的过程，以及教师如何上传课程、管理学生和获得收入的过程。</p>
+            <img src="./FlowModel.png" alt="流程模型图">
+            
+            <h2>2. “如何做”（HMW）问题</h2>
+            <ul>
+                <li>HMW1：我们如何让新用户快速了解并注册我们的在线教育平台？</li>
+                <li>HMW2：我们如何确保课程内容的质量和更新？</li>
+                <li>HMW3：我们如何提高学生的参与度和完成课程的动力？</li>
+                <li>HMW4：我们如何帮助教师有效地管理他们的课程和学生？</li>
+                <li>HMW5：我们如何确保平台的安全性和数据隐私？</li>
+                <li>HMW6：我们如何为教师提供足够的激励，让他们持续提供优质内容？</li>
+            </ul>
+            
+            <h2>3. 人物角色（Personas）</h2>
+            <h3>人物角色1：学生（李华）</h3>
+            <img src="./Personas-1.png" alt="学生人物角色图">
+            <h3>人物角色2：教师（王老师）</h3>
+            <img src="./Personas-2.png" alt="教师人物角色图">
+            
+            <h2>4. 故事板（Storyboards）</h2>
+            <h3>故事板1：学生体验</h3>
+            <img src="./storyboard-1.png" alt="学生体验故事板图">
+            <h3>故事板2：教师体验</h3>
+            <img src="./storyboard-2.png" alt="教师体验故事板图">
+            
+            <h2>5. 重访并修订问题陈述，添加解决方案提案</h2>
+            <h3>问题陈述：</h3>
+            <p>在线教育平台面临着如何吸引和保留学生，以及如何为教师提供有效工具和支持的挑战。</p>
+            <h3>解决方案提案：</h3>
+            <p>我们提议开发一个集成了社交功能、个性化学习路径和教师支持工具的在线教育平台。该平台将通过数据分析来优化课程推荐，提高学生参与度，并通过提供高质量的教学资源和工具来吸引和保留教师。</p>
+    </div>
+    <div class="lab9" id="lab9">
+        <div >
+            <h1 align="center">实验9</h1>
+            <div class="team">
+                <h1>团队：RookieTeam</h1>
+                <p>成员：</p>
+                <ul>
+                    <li>卢子卿 202100130172</li>
+                    <li>刘子轩 202100130215</li>
+                    <li>李东辉 202118130261</li>
+                    <li>熊宇轩 202118130263</li>
+                </ul>
+            </div>
+            <div class="proposal">
+                <h2>项目Proposal</h2>
+                <p>本项目旨在开发一款专为本科生毕业设计管理设计的APP，该APP将涵盖从选题、开题、中期检查到答辩的全过程管理。主要功能包括选题管理、优秀范文、进度跟踪、文档上传与审核等。通过此APP，学生可以方便地提交毕业设计相关材料，实时查看进度与反馈；教师则可以高效地管理学生信息，跟踪学生进度，进行在线评审与指导。此APP将大大提高毕业设计管理的效率与质量，为本科生毕业设计提供更加便捷、高效的管理方式。
+                </p>
+            </div>
+            <div class="links">
+                <h2>链接</h2>
+                <p><a href="https://yanshaoo.github.io/">https://yanshaoo.github.io/</a></p>
+            </div>
+            <div class="overall-statement">
+                <h2>整体陈述</h2>
+                <p>本次线框图设计旨在为用户提供一个直观、易用的本科毕业设计管理系统。通过该线框图，用户可以轻松进行项目申报、进度跟踪、资料上传及答辩安排等操作。然而，经过仔细审查及同行反馈，我们发现该线框图存在一些问题与改进空间。
+                </p>
+            </div>
+            <div class="problem-solution">
+                <h2>问题分类及解决方案</h2>
+                <div>
+                    <h3>1、无障碍设计</h3>
+                    <p><strong>问题：</strong>未考虑无障碍设计，限制特殊用户群体的使用。</p>
+                    <p><strong>来源：</strong>特殊用户群体的需求与法律法规要求</p>
+                    <p><strong>解决方案：</strong>在App原型中添加无障碍设计功能，如支持屏幕阅读器、调整文字大小与颜色对比度等。确保特殊用户群体能够顺利使用该App原型。同时，遵循相关法律法规要求，确保无障碍设计的合规性。
+                    </p>
+                </div>
+                <div>
+                    <h3>2、多语言支持</h3>
+                    <p><strong>问题：</strong>未考虑多语言支持，限制用户范围。</p>
+                    <p><strong>来源：</strong>国际化需求与多语言用户</p>
+                    <p><strong>解决方案：</strong>在App原型中添加多语言支持功能，根据用户需求提供多种语言选择。这包括界面文本的翻译、日期格式、货币符号等本地化调整。同时，确保多语言之间的切换流畅且不影响用户体验。
+                    </p>
+                </div>
+                <div>
+                    <h3>3、功能实现问题</h3>
+                    <ul>
+                        <li><strong>问题：</strong>部分功能描述不够详细，用户可能无法理解其用途。</li>
+                        <p><strong>来源：</strong>用户需求分析及功能描述</p>
+                        <p><strong>解决方案：</strong>为每个功能添加简短、明了的描述，并在必要时提供示例图或操作指南。</p>
+                    </ul>
+                    <ul>
+                        <li><strong>问题：</strong>缺少对用户上传文件的格式、大小等限制说明。</li>
+                        <p><strong>来源：</strong>系统设计规范及用户隐私保护</p>
+                        <p><strong>解决方案：</strong>在上传功能处添加明确的文件格式、大小等限制说明，确保用户上传的文件符合要求且安全。</p>
+                    </ul>
+                </div>
+                <div>
+                    <h3>4、信息呈现与可读性</h3>
+                    <ul>
+                        <li><strong>问题：</strong>部分页面信息呈现过于密集，用户难以快速抓住重点。</li>
+                        <p><strong>来源：</strong>信息架构设计与用户体验研究</p>
+                        <p><strong>解决方案：</strong>优化信息呈现方式，如使用卡片式设计、列表排序或分页显示等，确保用户能够快速找到所需信息。同时，使用加粗、颜色区分等视觉手段强调关键信息。</p>
+                    </ul>
+                    <ul>
+                        <li><strong>问题：</strong>页面颜色设计过于单调</li>
+                        <p><strong>来源：</strong>信息架构设计与用户体验研究</p>
+                        <p><strong>解决方案：</strong>优化颜色的设计，可以采用蓝色、浅绿色等进行设计，而不是整体都是灰色，并对当前页面状态用一些颜色特征表示特定状态。</p>
+                    </ul>
+                </div>
+                <div>
+                    <h3>5、用户反馈与迭代优化</h3>
+                    <p><strong>问题：</strong>未提供用户反馈渠道或机制。</p>
+                    <p><strong>来源：</strong>用户参与与持续改进</p>
+                    <p><strong>解决方案：</strong>在App原型中添加用户反馈渠道或机制，如设置意见箱、在线客服或社交媒体联系方式等。鼓励用户积极提供反馈意见，以便及时发现并解决问题。</p>
+                </div>
+            </div>
+            <div class="expected-improvement">
+                <h2>预期改进效果</h2>
+                <p>通过上述问题的识别与解决，我们预期该本科毕业设计管理系统App原型的WireFrame将更加完善、直观且易用。用户将能够更快速地找到所需功能，并顺利完成开题、进度跟踪等操作。同时，该线框图也将更符合用户习惯及系统设计规范，为后续的视觉设计与功能开发奠定坚实基础。
+                </p>
+            </div>
+        </div>
+    </div>
+    <!-- 引入Chart.js库 -->
+    <script src="./chart.js"></script>
+
+    <script>
+        // 每周阅读时长分布数据
+        const readingTimeData = {
+            labels: ['少于1小时', '1-3小时', '4-7小时', '8小时以上'],
+            datasets: [{
+                label: '人数',
+                data: [2, 5, 4, 4],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)'
+                ],
+                borderWidth: 1
+            }]
+        };
+
+        // 阅读类型数据
+        const readingTypeData = {
+            labels: ['小说', '教科书', '科普书籍', '报纸/杂志', '网络文章'],
+            datasets: [{
+                label: '人数',
+                data: [7, 5, 3, 2, 6],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)'
+                ],
+                borderWidth: 1
+            }]
+        };
+
+        // 阅读APP使用情况数据
+        const appUsageData = {
+            labels: ['是', '否'],
+            datasets: [{
+                label: '人数',
+                data: [10, 5],
+                backgroundColor: [
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+            }]
+        };
+
+        // 阅读APP基本功能需求数据
+        const appFeaturesData = {
+            labels: ['书签功能', '笔记功能', '高亮文本', '字体调节', '夜间模式'],
+            datasets: [{
+                label: '人数',
+                data: [12, 10, 8, 7, 9],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)',
+                    'rgba(153, 102, 255, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)',
+                    'rgba(153, 102, 255, 1)'
+                ],
+                borderWidth: 1
+            }]
+        };
+
+        // 个性化推荐依据数据
+        const personalizedRecommendationsData = {
+            labels: ['过去的阅读历史', '用户评分', '专家推荐', '流行趋势'],
+            datasets: [{
+                label: '人数',
+                data: [8, 7, 9, 6],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)'
+                ],
+                borderWidth: 1
+            }]
+        };
+
+        // 提醒功能帮助程度数据
+        const reminderHelpfulnessData = {
+            labels: ['很有帮助', '有些帮助', '无所谓', '没有帮助'],
+            datasets: [{
+                label: '人数',
+                data: [3, 5, 4, 3],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)'
+                ],
+                borderWidth: 1
+            }]
+        };
+
+        // 社交功能帮助程度数据
+        const socialHelpfulnessData = {
+            labels: ['是', '否'],
+            datasets: [{
+                label: '人数',
+                data: [6, 9],
+                backgroundColor: [
+                    'rgba(153, 102, 255, 0.2)',
+                    'rgba(255, 159, 64, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(153, 102, 255, 1)',
+                    'rgba(255, 159, 64, 1)'
+                ],
+                borderWidth: 1
+            }]
+        };
+
+        // 界面设计偏好数据
+        const designPreferencesData = {
+            labels: ['简洁明快', '功能丰富', '易于导航', '个性化定制'],
+            datasets: [{
+                label: '人数',
+                data: [10, 8, 6, 7],
+                backgroundColor: [
+                    'rgba(255, 99, 132, 0.2)',
+                    'rgba(54, 162, 235, 0.2)',
+                    'rgba(255, 206, 86, 0.2)',
+                    'rgba(75, 192, 192, 0.2)'
+                ],
+                borderColor: [
+                    'rgba(255, 99, 132, 1)',
+                    'rgba(54, 162, 235, 1)',
+                    'rgba(255, 206, 86, 1)',
+                    'rgba(75, 192, 192, 1)'
+                ],
+                borderWidth: 1
+            }]
+        };
+
+        // 配置图表
+        const readingTimeChart = new Chart(document.getElementById('readingTimeChart'), {
+            type: 'bar',
+            data: readingTimeData,
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true
+                    }
+                },
+                responsive: false
+            }
+        });
+
+        const readingTypeChart = new Chart(document.getElementById('readingTypeChart'), {
+            type: 'pie',
+            data: readingTypeData,
+            options: {
+                plugins: {
+                    legend: {
+                        display: true
+                    }
+                },
+                responsive: false
+            }
+        });
+
+        const appUsageChart = new Chart(document.getElementById('appUsageChart'), {
+            type: 'pie',
+            data: appUsageData,
+            options: {
+                plugins: {
+                    legend: {
+                        display: true
+                    }
+                },
+                responsive: false
+            }
+        });
+
+        const appFeaturesChart = new Chart(document.getElementById('appFeaturesChart'), {
+            type: 'bar',
+            data: appFeaturesData,
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true
+                    }
+                },
+                responsive: false
+            }
+        });
+
+        const personalizedRecommendationsChart = new Chart(document.getElementById('personalizedRecommendationsChart'), {
+            type: 'pie',
+            data: personalizedRecommendationsData,
+            options: {
+                plugins: {
+                    legend: {
+                        display: true
+                    }
+                },
+                responsive: false
+            }
+        });
+
+        const reminderHelpfulnessChart = new Chart(document.getElementById('reminderHelpfulnessChart'), {
+            type: 'bar',
+            data: reminderHelpfulnessData,
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true
+                    }
+                },
+                responsive: false
+            }
+        });
+
+        const socialHelpfulnessChart = new Chart(document.getElementById('socialHelpfulnessChart'), {
+            type: 'pie',
+            data: socialHelpfulnessData,
+            options: {
+                plugins: {
+                    legend: {
+                        display: true
+                    }
+                },
+                responsive: false
+
+            }
+        });
+
+        const designPreferencesChart = new Chart(document.getElementById('designPreferencesChart'), {
+            type: 'bar',
+            data: designPreferencesData,
+            options: {
+                scales: {
+                    y: {
+                        beginAtZero: true
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: true
+                    }
+                },
+                responsive: false
+            }
+        });
+    </script>
 </body>
+
 </html>
